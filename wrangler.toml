@@ -1,7 +1,0 @@
-# Cloudflare Pages 配置 - 简化版
-name = "data-visualization-platform"
-compatibility_date = "2025-10-17"
-
-# 静态网站配置
-[pages]
-directory = "."
