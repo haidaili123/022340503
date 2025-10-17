@@ -1,0 +1,11 @@
+# Cloudflare Pages 配置
+name = "data-visualization-platform"
+compatibility_date = "2025-10-17"
+
+# 静态网站配置 - 适用于Cloudflare Pages
+[pages]
+directory = "."
+# 构建命令：留空（静态网站无需构建）
+build.command = ""
+# 构建输出目录：根目录
+build.output = "."
