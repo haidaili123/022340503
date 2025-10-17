@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>交互式数据可视化平台</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>交互式数据可视化平台</h1>
+        <p>十种图表类型动态展示</p>
+    </div>
+
+    <div class="container">
+        <!-- 折线图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">未来15天最高气温和最低气温</div>
+            <div id="lineChart" class="chart-container"></div>
+        </div>
+
+        <!-- 柱形图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">2013-2019财年阿里巴巴GMV</div>
+            <div id="barChart" class="chart-container"></div>
+        </div>
+
+        <!-- 条形图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">各商品种类网购替代率</div>
+            <div id="horizontalBarChart" class="chart-container"></div>
+        </div>
+
+        <!-- 面积图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">物流公司物流费用统计</div>
+            <div id="areaChart" class="chart-container"></div>
+        </div>
+
+        <!-- 直方图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">人脸识别灰度直方图</div>
+            <div id="histogramChart" class="chart-container"></div>
+        </div>
+
+        <!-- 饼图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">支付宝月账单报告</div>
+            <div id="pieChart" class="chart-container"></div>
+        </div>
+
+        <!-- 散点图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">汽车速度与制动距离关系</div>
+            <div id="scatterChart" class="chart-container"></div>
+        </div>
+
+        <!-- 箱型图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">2017-2018年全国发电量统计</div>
+            <div id="boxplotChart" class="chart-container"></div>
+        </div>
+
+        <!-- 雷达图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">霍兰德职业兴趣测试</div>
+            <div id="radarChart" class="chart-container"></div>
+        </div>
+
+        <!-- 误差棒图卡片 -->
+        <div class="chart-card">
+            <div class="chart-title">树种细根生物量统计</div>
+            <div id="errorBarChart" class="chart-container"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
