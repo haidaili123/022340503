@@ -1,0 +1,7 @@
+# GitHub Pages configuration
+title: 交互式数据可视化平台
+description: 基于ECharts的十种数据可视化图表
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
